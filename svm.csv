@@ -1,49 +1,202 @@
-review,sentiment
-"This phone is amazing, battery lasts forever",Positive
-"Terrible quality, broke after two days",Negative
-"Excellent camera and sound quality",Positive
-"Not worth the price",Negative
-"Very comfortable and stylish",Positive
-"Screen resolution is bad",Negative
-"Love the design and performance",Positive
-"Customer service was awful",Negative
-"Fast delivery and works perfectly",Positive
-"Stopped working after a week",Negative
-"Highly recommend to everyone",Positive
-"Packaging was damaged",Negative
-"Lightweight and easy to use",Positive
-"Too noisy and slow",Negative
-"Perfect for my needs",Positive
-"Poor build quality",Negative
-"Great features at a good price",Positive
-"Not as described, very disappointing",Negative
-"Best purchase I’ve made",Positive
-"Battery drains quickly",Negative
-"Fantastic performance",Positive
-"Cheap materials used",Negative
-"Very happy with the product",Positive
-"Would not buy again",Negative
-"Excellent durability",Positive
-"Arrived late and missing parts",Negative
-"Smooth operation and user friendly",Positive
-"Doesn’t work as expected",Negative
-"Love it, works like a charm",Positive
-"Feels flimsy",Negative
-"Absolutely worth every penny",Positive
-"Overheats after short use",Negative
-"Very sturdy and reliable",Positive
-"Too expensive for what it offers",Negative
-"Perfect gift for a friend",Positive
-"Low battery backup",Negative
-"Top-notch quality",Positive
-"Not user friendly",Negative
-"Beautiful design and color",Positive
-"Too heavy to carry around",Negative
-"Exceeded my expectations",Positive
-"Not durable at all",Negative
-"Value for money",Positive
-"Product stopped charging",Negative
-"Works flawlessly",Positive
-"Looks cheap and ugly",Negative
-"Very satisfied",Positive
-"Bad smell from the material",Negative
+review,label
+"This product is amazing, I love it!",positive
+"Absolutely fantastic, worth every penny!",positive
+"Exceeded my expectations!",positive
+"Really good quality and fast shipping.",positive
+"Five stars, highly recommend!",positive
+"Very satisfied with my purchase.",positive
+"Great value for the money.",positive
+"Best purchase I've made in a while.",positive
+"High quality and great packaging.",positive
+"Excellent product and good customer service.",positive
+"Superb design and build quality.",positive
+"Product works exactly as advertised.",positive
+"Delivers excellent performance every time.",positive
+"Perfect size and fits my needs.",positive
+"Outstanding durability and style.",positive
+"Very comfortable to use.",positive
+"Simply the best in its category.",positive
+"Packaging was neat and secure.",positive
+"Shipped quickly and works great.",positive
+"Will definitely buy again.",positive
+"Works perfectly without any issues.",positive
+"Product feels premium and sturdy.",positive
+"Design is sleek and modern.",positive
+"Value for money is unbeatable.",positive
+"Definitely a must-have product.",positive
+"Everything about it is perfect.",positive
+"Great performance and easy to use.",positive
+"Product exceeded the description.",positive
+"Totally satisfied with this purchase.",positive
+"Sturdy build and excellent features.",positive
+"Very practical and efficient.",positive
+"Met all my expectations easily.",positive
+"Highly functional and reliable.",positive
+"Looks better than in the pictures.",positive
+"Great addition to my collection.",positive
+"Super comfortable and well-made.",positive
+"Very affordable for its quality.",positive
+"Fantastic quality and performance.",positive
+"Easy to clean and maintain.",positive
+"Would recommend to friends.",positive
+"Absolutely worth the investment.",positive
+"One of the best products I’ve bought.",positive
+"High-end quality for a fair price.",positive
+"Perfect in every aspect.",positive
+"Works like a charm.",positive
+"Really improves my daily routine.",positive
+"Excellent choice for any user.",positive
+"Reliable and performs consistently.",positive
+"Feels solid and well-crafted.",positive
+"Looks stylish and trendy.",positive
+"Exactly what I needed.",positive
+"Top-notch build and design.",positive
+"Very user-friendly and intuitive.",positive
+"Lightweight yet durable.",positive
+"Impressive features for the price.",positive
+"Packaging was very professional.",positive
+"Does the job perfectly.",positive
+"High performance and low cost.",positive
+"Best in its price range.",positive
+"Beautiful design and feel.",positive
+"Highly efficient and dependable.",positive
+"Truly a game-changer product.",positive
+"Everything works flawlessly.",positive
+"Customer service was very helpful.",positive
+"Delivers on its promises.",positive
+"Easy to set up and operate.",positive
+"Performance is top-tier.",positive
+"Feels like a luxury item.",positive
+"Exceeded my quality expectations.",positive
+"Smooth and fast operation.",positive
+"Well worth the price.",positive
+"Best quality I’ve seen so far.",positive
+"Comfortable and easy to handle.",positive
+"Perfectly meets my requirements.",positive
+"Looks elegant and classy.",positive
+"Extremely happy with the purchase.",positive
+"One of my best online buys.",positive
+"Product is spot on.",positive
+"Totally hassle-free experience.",positive
+"Performs beyond my expectations.",positive
+"Impressive craftsmanship.",positive
+"Highly durable product.",positive
+"Better than I imagined.",positive
+"Feels robust and dependable.",positive
+"Exactly as described online.",positive
+"Very functional and practical.",positive
+"Very stylish and modern.",positive
+"Truly fantastic build.",positive
+"Smooth performance all around.",positive
+"Met my needs perfectly.",positive
+"Solid and well-engineered.",positive
+"Very nice finish and feel.",positive
+"Extremely reliable choice.",positive
+"Would give 10 stars if I could.",positive
+"Super high-quality product.",positive
+"Efficient and powerful.",positive
+"Absolutely flawless.",positive
+"Better than competitors.",positive
+"This is a keeper.",positive
+"One of a kind product.",positive
+"Perfect choice for anyone.",positive
+"Truly outstanding.",positive
+"Love it completely.",positive
+"Fantastic all around.",positive
+"Exactly what I hoped for.",positive
+"Completely satisfied.",positive
+"Terrible quality, broke after one use.",negative
+"Poor build, not worth the price.",negative
+"Cheap materials and bad design.",negative
+"I will never buy this again.",negative
+"The product stopped working after a week.",negative
+"Not as described, very disappointed.",negative
+"It arrived broken and unusable.",negative
+"The worst product I have ever bought.",negative
+"Completely useless and a waste of money.",negative
+"Awful experience, do not recommend.",negative
+"Very poor quality control.",negative
+"Feels flimsy and cheap.",negative
+"Fell apart after first use.",negative
+"Not functional at all.",negative
+"Looks good but works terribly.",negative
+"Extremely overpriced for what it is.",negative
+"Stopped working after a few days.",negative
+"Caused more problems than it solved.",negative
+"Build quality is extremely poor.",negative
+"Arrived late and damaged.",negative
+"Customer service was unhelpful.",negative
+"Performance is very poor.",negative
+"Does not match the description.",negative
+"Feels like a fake product.",negative
+"Not worth even half the price.",negative
+"Extremely disappointing purchase.",negative
+"Looks nice but not durable.",negative
+"Failed to meet expectations.",negative
+"Totally unreliable product.",negative
+"Broke almost immediately.",negative
+"Feels like a cheap knockoff.",negative
+"Zero value for the money.",negative
+"Not fit for purpose.",negative
+"Performance is substandard.",negative
+"Assembly was a nightmare.",negative
+"Would not recommend at all.",negative
+"Looks cheap and feels cheap.",negative
+"Poor materials and finish.",negative
+"Completely impractical.",negative
+"Very inconvenient to use.",negative
+"Feels like it's made of paper.",negative
+"Packaging was torn and dirty.",negative
+"Defective right out of the box.",negative
+"Not suitable for long-term use.",negative
+"Very hard to operate.",negative
+"Totally different from photos.",negative
+"Feels fragile and unsafe.",negative
+"Missing important parts.",negative
+"Arrived with scratches and dents.",negative
+"Assembly instructions were useless.",negative
+"Uncomfortable to handle.",negative
+"Extremely loud and annoying.",negative
+"Worst customer service ever.",negative
+"Product is a complete scam.",negative
+"Totally unsatisfactory.",negative
+"Design is ugly and outdated.",negative
+"Not energy-efficient at all.",negative
+"Too big and bulky.",negative
+"Does not hold up well.",negative
+"Performance is very inconsistent.",negative
+"Needs constant maintenance.",negative
+"Feels like second-hand.",negative
+"Cheap build and poor design.",negative
+"Not the color shown online.",negative
+"Very unstable product.",negative
+"Poor battery life.",negative
+"Does not work as promised.",negative
+"Totally overhyped product.",negative
+"Broke within hours.",negative
+"Feels unsafe to use.",negative
+"Completely ineffective.",negative
+"Assembly was impossible.",negative
+"Extremely flimsy build.",negative
+"Totally useless purchase.",negative
+"Feels unfinished.",negative
+"Not even close to what I expected.",negative
+"Arrived incomplete.",negative
+"Very ugly design.",negative
+"Not strong enough.",negative
+"Performance drops quickly.",negative
+"Low-grade product.",negative
+"Not comfortable to use.",negative
+"Totally frustrating to use.",negative
+"Not worth the hassle.",negative
+"Product smells weird.",negative
+"Does not work properly.",negative
+"Very low quality.",negative
+"Stopped working randomly.",negative
+"Packaging was damaged.",negative
+"Poorly built product.",negative
+"Does not fit the description.",negative
+"Totally a waste of money.",negative
+"Cheap and fragile.",negative
+"Not functional at all.",negative
+"Completely unreliable.",negative

@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product Review Classifier</title>
+    <title>Product Review Classification</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Product Review Classification</h1>
-        <form action="/predict" method="post">
-            <textarea name="review" placeholder="Enter your product review..." required></textarea>
+        <h1>Product Review Classification (SVM)</h1>
+        <form method="POST">
+            <textarea name="review" placeholder="Enter product review..." required>{{ review }}</textarea>
             <button type="submit">Classify</button>
         </form>
+
+        {% if prediction %}
+            <div class="result">
+                <h3>Prediction: <span class="{{ prediction }}">{{ prediction }}</span></h3>
+            </div>
+        {% endif %}
     </div>
 </body>
 </html>
